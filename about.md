@@ -16,7 +16,7 @@ title: About
   <strong>Benjamin Philpot</strong>
 
   <div>
-    <a href="/index" style="margin-right: 1rem;">Projects</a>
+    <a href="/index.html" style="margin-right: 1rem;">Projects</a>
     <a href="/about" style="margin-right: 1rem;">About</a>
     <a href="/contact">Contact</a>
   </div>
