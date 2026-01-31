@@ -32,27 +32,32 @@ layout: default
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  margin: 2rem 0;
+  padding: 2rem 0;
 ">
   <img 
     src="assets/profile.png" 
     alt="Benjamin Philpot"
     style="
-      width: 120px;
-      height: 120px;
+      width: 200px;
+      height: 200px;
       object-fit: cover;
       border-radius: 50%;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border: 1px solid #eaeaea;
     "
   />
 
   <div>
     <h1 style="margin: 0;">Benjamin Philpot</h1>
-    <p style="margin: 0.25rem 0; color: #666;">
+    <p style="margin: 0.5rem 0 0 0; color: #666;">
       Economics & Environmental Science | GIS • R • Data Analysis
     </p>
   </div>
 </header>
+
+
+
+<div style="width: 100%; max-width: 100%; margin: 0;"> # to make full body widder
+
 
 <h1>Ben Philpot</h1>
 <p>
@@ -61,6 +66,55 @@ Interested in environmental analytics, GIS, energy markets, and finance.
 </p>
 
 <h1>Projects</h1>
+
+
+<section style="
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+">
+
+  <!-- Project Card -->
+  <div style="
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 1rem;
+    background: #fff;
+  ">
+    <h3>GIS: Water Conservation Priority Index</h3>
+    <img 
+      src="assets/gis_preview.png" 
+      style="width: 100%; border-radius: 8px; margin: 0.5rem 0;"
+    >
+    <p>Spatial analysis using MassGIS, slope rasters, wetlands buffers, and soil permeability layers.</p>
+    <a href="assets/Philpot_GIS_FinalProject.pdf" target="_blank">View full map (PDF)</a>
+  </div>
+
+  <div style="
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 1rem;
+    background: #fff;
+  ">
+    <h3>Salt Marsh Research – R Scripts</h3>
+    <p>Developed and committed R scripts for time-series cleaning and GIS-linked analysis.</p>
+    <a href="https://github.com/YOUR_REPO_LINK" target="_blank">View code</a>
+  </div>
+
+  <div style="
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 1rem;
+    background: #fff;
+  ">
+    <h3>Published Research – Environmental Pollution</h3>
+    <p>Contributed to peer-reviewed publication through two semesters of lab research.</p>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0048969725020625" target="_blank">View publication</a>
+  </div>
+
+</section>
+
+
 
 <h2>Published Research</h2>
 <p>
@@ -117,5 +171,7 @@ Email: benphilpots@gmail.com
 <br>
 GitHub: <a href="https://github.com/benphilpots">github.com/benphilpots</a>
 </p>
+
+</div>
 
 </main>
