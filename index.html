@@ -8,23 +8,26 @@ layout: default
   padding: 0 2rem;
 ">
 
-<nav style="
-  width: 100%;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid #eaeaea;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-">
+  <nav style="
+    width: 100%;
+    padding: 1.5rem 2.5rem;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box
+    font-size: 1.25rem;
+  ">
 
-  <strong>Benjamin Philpot</strong>
+  <strong style="font-size: 1.75rem; letter-spacing: 0.5px;">
+  Benjamin Philpot Portfolio
+</strong>
 
-  <div>
-    <a href="/index.html" style="margin-right: 1rem;">Projects</a>
-    <a href="/about.html" style="margin-right: 1rem;">About</a>
-    <a href="/contact.html">Contact</a>
-  </div>
+<div>
+  <a href="/index.html" style="margin-right: 1.5rem; font-size: 1.25rem;">Projects</a>
+  <a href="/about.html" style="margin-right: 1.5rem; font-size: 1.25rem;">About</a>
+  <a href="/contact.html" style="font-size: 1.25rem;">Contact</a>
+</div>
 
 </nav>
 
@@ -62,6 +65,12 @@ layout: default
 
 <h1>Projects Completed</h1>
 
+<style>
+  section > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  }
+</style>
 
 <section style="
   display: grid;
@@ -73,8 +82,9 @@ layout: default
   <div style="
     border: 1px solid #eaeaea;
     border-radius: 12px;
-    padding: 1rem;
+    padding: 1.25rem;
     background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   ">
     <h2>GIS: Water Conservation Priority Index</h2>
     <a href="assets/philpot_gis_finalproject.pdf" target="_blank">
@@ -100,6 +110,7 @@ layout: default
     border-radius: 12px;
     padding: 1rem;
     background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   ">
     <h2>R Scripts: Salt Marsh Research</h2>
     <a href="https://github.com/UMass-UAS-Salt-Marsh" target="_blank">
@@ -126,6 +137,7 @@ layout: default
     border-radius: 12px;
     padding: 1rem;
     background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   ">
     <h2>Published Research: Environmental Pollution</h2>
      <a href="https://www.sciencedirect.com/science/article/pii/S0048969725020625" target="_blank">
@@ -165,6 +177,7 @@ layout: default
     border-radius: 12px;
     padding: 1rem;
     background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   ">
     <h2>Honors thesis</h2>
   <li>Linear regression on variables which may predict renewable energy permitting timelines</li>
@@ -178,6 +191,7 @@ layout: default
     border-radius: 12px;
     padding: 1rem;
     background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   ">
     <h2>Econometrics Project</h2>
   <li>Linear regression final project</li>
